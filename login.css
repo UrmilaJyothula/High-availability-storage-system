@@ -1,0 +1,128 @@
+body
+{
+ height:100%; 
+ max-height:100%; 
+}
+
+header 
+{
+ max-height:15%;
+ width:100%;
+ overflow:hidden;
+ background-color:black;
+ border-radius:5px;
+}
+
+#logo
+{
+ padding:10px;
+ float:left;
+ margin-left:40px;
+}
+
+a
+{
+ text-decoration:none;
+}
+
+h1
+{
+ color:gray;
+}
+
+h1:hover
+{
+ color:white;
+}
+
+main
+{
+ min-height:70%;
+ min-width:100%;
+ background-color:white;
+}
+
+.formstyle
+{
+ margin-top:50px;
+ position:relative;
+ top:10px;
+ width:300px;
+ background-color:white;
+ height:36%;
+ font-size:18px;
+}
+
+.adjust
+{
+ margin-left:56px;
+}
+
+.labels
+{
+ float:left;
+}
+
+.floattype
+{
+ float:left;
+}
+
+input[type=text],select
+{
+ border:1px solid #ccc;
+ border-radius:5px;
+ height:30px;
+ font-size:15px;
+ text-indent:5px;
+} 
+
+input[type=password],select
+{
+ border:1px solid #ccc;
+ border-radius:5px;
+ height:30px;
+ font-size:15px;
+ text-indent:5px;
+} 
+
+button
+{
+ font-size:15px;
+ cursor:pointer;
+ border-radius:5px;
+ background-color:grey;
+ height:30px;
+ color:black;
+ float:left;
+}
+
+button:hover
+{
+ background-color:#2D2729;
+ color:white;
+}
+
+footer
+{
+ max-height:15%;
+}
+
+.link
+{
+ font-size:18px;
+ color:black;
+ position:relative;
+ top:20px;
+}
+
+a.link:hover
+{
+ color:white;
+ background-color:black;
+}
+
+.php
+{
+ color:red;
+}
