@@ -1,0 +1,84 @@
+body
+{
+ height:100%; 
+ max-height:100%; 
+}
+
+header 
+{
+ max-height:15%;
+ width:100%;
+ overflow:hidden;
+ background-color:black;
+ border-radius:5px;
+}
+
+#logo
+{
+ padding:10px;
+ float:left;
+ margin-left:40px;
+}
+
+a
+{
+ text-decoration:none;
+}
+
+h1
+{
+ color:gray;
+}
+
+h1:hover
+{
+ color:white;
+}
+
+.logout
+{
+ color:gray;
+ margin-top:30px;
+ margin-right:40px;
+}
+
+button
+{
+ font-size:20px;
+ font-family:Times New Roman;
+ cursor:pointer;
+ border-radius:5px;
+ border-color:black;
+ background-color:black;
+ color:gray;
+}
+
+button.logout_button:hover
+{
+ color:white;
+}
+
+.innertube
+{
+ float:right;
+}
+
+.nametube
+{
+ color:gray;
+ padding:10px;
+ margin-left:1000px;
+ 
+}
+
+main
+{
+ min-height:70%;
+ width:100%;
+ background-color:white;
+}
+
+footer
+{
+ max-height:15%;
+}
