@@ -1,0 +1,64 @@
+ (55 sloc)  650 Bytes
+body
+{
+ height:100%; 
+ max-height:100%; 
+}
+
+header 
+{
+ max-height:15%;
+ width:100%;
+ overflow:hidden;
+ background-color:black;
+ border-radius:5px;
+}
+
+#logo
+{
+ padding:10px;
+ float:left;
+ margin-left:40px;
+}
+
+a
+{
+ text-decoration:none;
+}
+
+h1
+{
+ color:gray;
+}
+
+h1:hover
+{
+ color:white;
+}
+main
+{
+ min-height:70%;
+ min-width:100%;
+ background-color:white;
+}
+
+input[type=submit]
+{
+ font-size:18px;
+ border-radius: 5px;
+ border: 0;
+ width: 160px;
+ height:25px;
+ background-color:#E9EBEE;
+ text-align:center;
+}
+
+input[type=submit]:hover
+{
+ background-color:grey;
+}
+
+footer
+{
+ max-height:15%;
+}
